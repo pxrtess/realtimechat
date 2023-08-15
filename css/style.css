@@ -1,0 +1,21 @@
+#mensagem{
+    width: 90%;
+}
+.enviada{
+    padding: 1px 1em;
+    background-color: rgb(83, 83, 253);
+    color: white;
+    width: fit-content;
+    border-radius: 1em;
+    margin:10px;
+    margin-left: auto;
+}
+.recebida{
+    padding: 0.1em 2em;
+    background-color: rgb(217, 217, 217);
+    color: black;
+    width: fit-content;
+    border-radius: 1em;
+    margin:10px;
+}
+
