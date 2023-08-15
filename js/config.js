@@ -25,6 +25,7 @@ function enviarMensagem() {
             destinatario: destinatario,
         }),
     })
+    document.getElementById("mensagem").value="";
 }
 
 function atualizarMensagens() {
