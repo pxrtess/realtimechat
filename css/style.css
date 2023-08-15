@@ -1,5 +1,27 @@
+body{
+    margin:0;
+    margin-top: 0;
+}
+.nomes, .formulario{
+    margin: 0.5em;
+}
+nav{
+    margin-top: 0;
+    background-color: rgb(83, 83, 253);
+    height: 3em;
+    display: flex;
+    color: white;
+}
+nav h1{
+    margin: auto;
+}
 #mensagem{
-    width: 90%;
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 0.5em;
+    height: 2em;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
 }
 .enviada{
     padding: 1px 1em;
@@ -18,4 +40,17 @@
     border-radius: 1em;
     margin:10px;
 }
-
+.inputMensagem{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0.5em;
+}
+.enviar{
+    background-color: rgb(73, 73, 255);
+    color: white;
+    border-radius: 0.5em;
+}
+ .inputMensagem .enviar{
+    margin-right: 0.5em;
+ }

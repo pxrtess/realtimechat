@@ -8,24 +8,28 @@
     <script src="js/config.js"></script>
 </head>
 <body>
-    <h1>Realtime Chat</h1>
     <main>
+        <nav>
+            <h1>Realtime Chat</h1>
+        </nav>
         <section class="formulario" id="sectionFormulario">
             <div>
                 <label for="username">Digite seu nome de usuário</label><br>
                 <input type="text" name="username" id="idUsername"><br>
                 <label for="username">Digite o usuário do destinatário da mensagem</label><br>
                 <input type="text" name="destinatario" id="idDestinatario">
-                <input type="button" value="Enviar" onclick="users()">
+                <input type="button" value="Enviar" class="enviar" onclick="users()">
             </div>
         </section>
-        <section id="sectionNomes" style="display: none;">
+        <section id="sectionNomes" class="nomes" style="display: none;">
             <h3>De: <strong id="nomeRemetente"></strong></h3>
             <h3>Para: <strong id="nomeDestinatario"></strong></h3>
         </section>
         <section id="sectionMensagens" style="display: none;">
             <div id="mensagens"></div>
-            <input type="text" placeholder="digite uma mensagem..." id="mensagem"><input type="button" value="Enviar" onclick="enviarMensagem()">
+            <div class="inputMensagem">
+                <input type="text" placeholder="digite uma mensagem..." id="mensagem"><input type="button" value="Enviar" class="enviar" onclick="enviarMensagem()">
+            </div>
         </section>
     </main>
 </body>

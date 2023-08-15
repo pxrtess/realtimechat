@@ -16,9 +16,6 @@ function enviarMensagem() {
     if (entrada == "") {
         return;
     }
-    console.log(entrada);
-    console.log(username);
-    console.log(destinatario);
     fetch(baseURL+"mensagens.json", {
         method: "POST",
         headers: { "Content-type": "application/json" },
